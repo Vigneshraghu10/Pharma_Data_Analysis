@@ -103,10 +103,10 @@ def main():
     # Sidebar Examples
     with st.sidebar:
         st.subheader("Example Questions")
-        st.write("• What are the top 10 selling products?")
-        st.write("• Show me monthly sales trends")
-        st.write("• Who are the top 5 customers?")
-        st.write("• Compare shipped vs returned quantities")
+        st.write("1. What are the top 10 selling products?")
+        st.write("2.Show me monthly sales trends")
+        st.write("3.Who are the top 5 customers?")
+        st.write("4.Compare shipped vs returned quantities")
 
 if __name__ == "__main__":
     main()
