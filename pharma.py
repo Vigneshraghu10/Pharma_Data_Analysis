@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import io
 
 # Page Configuration
-st.set_page_config(page_title="📊 Sales Analytics BI Assistant", layout="wide")
+st.set_page_config(page_title="📊 Sales Analytics BI ", layout="wide")
 
 # Load and Prepare Data
 @st.cache_data
