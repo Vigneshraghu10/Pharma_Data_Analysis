@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import io
 
 # Page Configuration
-st.set_page_config(page_title="📊 Sales Analytics BI ", layout="wide")
+st.set_page_config(page_title="📊 Sales Analytics BI Assistant", layout="wide")
 
 # Load and Prepare Data
 @st.cache_data
@@ -67,7 +67,7 @@ def get_plot_download_link(fig):
 
 # Main UI
 def main():
-    st.title("📊 ")
+    st.title("📊 Sales Analytics BI Assistant ")
     st.write("Ask me anything about your sales data!")
 
     # Load Data
