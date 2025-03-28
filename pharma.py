@@ -9,7 +9,7 @@ st.set_page_config(page_title="📊 Sales Analytics BI Assistant", layout="wide"
 # Load and Prepare Data
 @st.cache_data
 def load_data():
-    df = pd.read_excel(r"C:\Users\SASMITHA V\Downloads\Sales_data (1).xlsx")
+    df = pd.read_excel(r"data/Sales_data (1).xlsx")
     df['Month'] = pd.to_datetime(df['Order Date']).dt.to_period('M')
     return df
 
