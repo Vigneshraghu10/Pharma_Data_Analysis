@@ -67,7 +67,7 @@ def get_plot_download_link(fig):
 
 # Main UI
 def main():
-    st.title("📊 Sales Analytics BI Assistant")
+    st.title("📊 ")
     st.write("Ask me anything about your sales data!")
 
     # Load Data
